@@ -1,3 +1,8 @@
+#
+# Recommended scientific reproduction environment. These pins represent the
+# canonical experiment specification, not the TP2M5E2 quick-verification
+# environment recorded in environment-verification.txt.
+#
 tensorflow==2.13.0
 numpy==1.24.3
 pandas==2.0.3

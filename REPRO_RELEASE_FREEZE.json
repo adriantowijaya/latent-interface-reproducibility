@@ -1,0 +1,51 @@
+{
+  "phase": "TP-2M.5E.2-R1",
+  "version": "v1.0",
+  "timestamp": "2026-08-28T00:50:17.2372913Z",
+  "scientific_tree_commit_sha": "11eedf8960b841889805615313fa34a866d47de7",
+  "release_metadata_commit_sha_embedded": false,
+  "release_metadata_commit_sha_note": "Recorded externally after commit creation; not embedded in this freeze file to avoid self-reference.",
+  "historical_staging_tag": "tp2m5e2-repro-freeze-v1.0",
+  "final_candidate_release_tag": "neurocomputing-repro-v1.0.0-rc1",
+  "TP2M5A_freeze_SHA": "02f237708fc67b29f6f4e2ba98f2ef5af248d48b979e000a2091a742ef3fa0df",
+  "dataset_hashes": {
+    "WHO": "f9f6af1c1217a118b14ac76eddf5bae4080e461eba43ad350d0bb98f2695eeee",
+    "Electricity": "4873492cb3855b713f236a79dea581dc3be320cd1613187eacddffd4bb179c70",
+    "Dengue": "24f09a7ac8f32f9eb5213d809bf1b30c1e0621aaac183337b1c86dc80f5a4a1b"
+  },
+  "authoritative_result_hashes": {
+    "results/functional/TP2M5C_MULTIARCH_FUNCTIONAL_COMMON_CORE.csv": "2894a38ef448ef0e03366ef8e26a1a46894226ecc49b82f72107678ebfe0229e",
+    "results/structural/TP2M5B_R1_GRU_VS_LSTM_STRUCTURAL_REFERENCE.csv": "8f0c816eb4cf59e4c43c6f9293c742f3433294ba2ae5abba55919c7bf5d87b5e",
+    "results/functional/TP2M4D_FUNCTIONAL_PER_MODEL.csv": "b80d1183a031f20b781bc2c2142518c3f1413a14d4539619f1b447d4df54af31",
+    "results/intervention/TP2M4B2_R1_COUNTRY_RESULT_MATRIX.csv": "7ff6452de2e5c5e69e51944889e800d52a13fbc68b9039f183a6d889639b5291",
+    "results/structural/TP2M5C_MULTIARCH_STRUCTURAL_REFERENCE.csv": "79da366490d4af3f62767d1581b633b0d6e5205d5ea27338d61d9953cb0952ee",
+    "results/manuscript/TP2M5C_TRANSFORMER_FORECAST_SERIES_SUMMARY.csv": "5981ccc480358f3fbc1a4b1063d8bc76bbe3dbbe850dcfbae07c259ca44c26d7",
+    "results/manuscript/TP2M5B_R1_GRU_FORECAST_SERIES_SUMMARY.csv": "660d0caa5c8620592e14398f3ec4af7e548adc1b8afce432b9673bc37f777044",
+    "results/structural/TP2M4D_LATENT_SERIES_SUMMARY.csv": "6b6e18be81434709130cb55d1893311a8816175cc7251d75ab23e68d33e709fb",
+    "results/structural/TP2M4C_R1_SERIES_LEVEL_LATENT_SUMMARY.json": "2bf4e979e2d34db8aee0a0a50784e534887d0d07af85dac29dd62c45bd80af3f",
+    "results/functional/TP2M5B_R1_GRU_VS_LSTM_FUNCTIONAL_COMMON_CORE.csv": "78cc525c8f6a94eb20f4206f24219f3d17672df8f8683e9e9dcb91d84bd93a99",
+    "results/intervention/TP2M4E_C_WHO_INTERVENTION_GATES.csv": "a7676aadb6123d441e60de890725cca7de226775cfe39bdd0ebb4486aa51dc75",
+    "results/functional/TP2M4C_R1_SERIES_LEVEL_TP2D_SUMMARY.json": "20f6e2e461bad1f2dd4affb1a0ce1512d42cc32ff8e7f55e032fcd2823f272bf",
+    "results/manuscript/TP2M4C_R1_TAXONOMY_PHENOTYPE_CROSSTAB.csv": "57868955657b881879f40883bf2aad8029ba9d3a329e2a0cf3b9619db1f0e230",
+    "results/functional/TP2M4D_TP2D_SERIES_SUMMARY.csv": "86bb4ff6cf0df2493dccbbfd93fbb41eb3970f4f73f2561973ae3be3fef5096a",
+    "results/intervention/TP2M4B2_R1_GATE_TABLE_STRICT_AND_BOUNDARY_AWARE.csv": "20b88dcb9ce4aad4a07a2889f722b2ff6e9de329acd1d7e136614d24b2e8bb2e"
+  },
+  "repository_tree_file_count": 104,
+  "environment_authority_status": {
+    "canonical_specification": "Python 3.9.16; TensorFlow 2.13.0; NumPy 1.24.3; Pandas 2.0.3; h5py 3.9.0",
+    "canonical_synthetic_cross_check": "PASS",
+    "actual_gru_training_environment_evidence": "PROTOCOL_CONFIG_CHECKPOINT_DATASET_MANIFESTS_ONLY",
+    "actual_transformer_training_environment_evidence": "PROTOCOL_CONFIG_CHECKPOINT_DATASET_MANIFESTS_ONLY",
+    "quick_reproduction_verification_environment": "Python 3.9.16; TensorFlow 2.10.0; NumPy 1.25.0; Pandas 2.0.3; h5py 3.9.0",
+    "exact_training_package_lock": "NOT_FULLY_RECOVERABLE_FROM_PERSISTED_METADATA",
+    "discrepancy_classification": "VERIFICATION_ENVIRONMENT_DIFFERENCE"
+  },
+  "license_status": "PASS",
+  "security_status": "PASS",
+  "quick_reproduction_status": "PASS_WITH_VERIFICATION_ENVIRONMENT_DIFFERENCE",
+  "GitHub_remote_configured": false,
+  "GitHub_pushed": false,
+  "training": 0,
+  "optimizer_steps": 0,
+  "weights_modified": false
+}

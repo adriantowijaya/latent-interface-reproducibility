@@ -1,0 +1,15 @@
+TP2M5E2 quick-reproduction verification environment
+
+Python==3.9.16
+tensorflow==2.10.0
+numpy==1.25.0
+pandas==2.0.3
+h5py==3.9.0
+
+Observed executable during TP-2M.5E.2-R1:
+C:\Users\adria\anaconda3\envs\knimeenv_python_39\python.exe
+
+Classification:
+VERIFICATION_ENVIRONMENT_DIFFERENCE
+
+This file records the quick reproduction environment only. It is not the actual training environment and is not the canonical scientific reproduction specification.

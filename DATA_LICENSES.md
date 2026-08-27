@@ -13,3 +13,5 @@ Source: https://archive.ics.uci.edu/dataset/321/electricityloaddiagrams20112014.
 ## Taiwan CDC Dengue
 
 Source metadata: https://data.gov.tw/en/datasets/73178. General license: https://data.gov.tw/en/license. Provider: Taiwan Centers for Disease Control. License: Open Government Data License, version 1.0. This repository contains only processed county-level daily aggregate analytical series for seven counties. It does not contain source case-level records, Village, Township, coordinates, Sex, Age_Group, or case identifiers. The source metadata indicated scheduled permanent unpublishing on 2026-08-24, so provenance is preserved without claiming the original endpoint will remain available indefinitely.
+
+The staged Dengue table retains a column named `Country` for frozen analytical compatibility with the shared series-processing interface. In this Dengue subset, `Country` identifies county/city series labels such as `Kaohsiung City` and does not mean sovereign country.
