@@ -1,0 +1,1 @@
+Authoritative machine-readable result sources are staged under `results/`. Priority sources are TP2M5B_R1 for reconciled LSTM/GRU references, TP2M5C for Transformer evidence, TP2M4C_R1 and TP2M4D for external structural replications, and TP2M4B2_R1/TP2M4E_C for WHO intervention gates.

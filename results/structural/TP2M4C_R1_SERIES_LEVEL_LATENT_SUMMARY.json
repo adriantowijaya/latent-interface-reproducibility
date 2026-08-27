@@ -1,0 +1,37 @@
+{
+  "unit_of_inference": "one Electricity series",
+  "N": 36,
+  "aligned_TV_median": 0.4744194354529359,
+  "aligned_TV_iqr": [
+    0.43448483849143876,
+    0.5196612071096232
+  ],
+  "ARI_median": 0.1663460813032453,
+  "ARI_iqr": [
+    0.09492285447233315,
+    0.28918350012302774
+  ],
+  "taxonomy_counts_and_proportions": [
+    {
+      "label": "STRUCTURALLY UNSTABLE",
+      "count": 30,
+      "proportion": 0.8333333333333334
+    },
+    {
+      "label": "SOFT-REPARAMETERISED",
+      "count": 5,
+      "proportion": 0.1388888888888889
+    },
+    {
+      "label": "STABLE",
+      "count": 1,
+      "proportion": 0.027777777777777776
+    },
+    {
+      "label": "PERMUTATION-DOMINATED",
+      "count": 0,
+      "proportion": 0.0
+    }
+  ],
+  "supersedes_original_portfolio_pairwise_pooled_median_iqr": true
+}

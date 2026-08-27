@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite it."
+title: "Latent Representation Instability Across Recurrent and Attention-Based Receivers: Functional Equivalence and Receiver Transfer in Neural Time-Series Forecasting"
+type: software
+version: "1.0.0-prepublication"
+authors:
+  - family-names: "Wijaya"
+    given-names: "Adrianto Mahendra"
+  - family-names: "Che Pee"
+    given-names: "Ahmad Naim"
+  - family-names: "Mohd Aboobaider"
+    given-names: "Burhanuddin"
+abstract: "Prepublication software and data reproducibility resource for a Neurocomputing manuscript under review."

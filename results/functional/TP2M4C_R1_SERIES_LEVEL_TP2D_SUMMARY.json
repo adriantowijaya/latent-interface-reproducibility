@@ -1,0 +1,70 @@
+{
+  "unit_of_inference": "one Electricity series",
+  "N": 36,
+  "phenotype_counts_and_proportions": [
+    {
+      "label": "DOWNSTREAM-COMPENSATED / CO-ADAPTED",
+      "count": 18,
+      "proportion": 0.5
+    },
+    {
+      "label": "FUNCTIONALLY NEGLIGIBLE",
+      "count": 14,
+      "proportion": 0.3888888888888889
+    },
+    {
+      "label": "FUNCTIONALLY UNSTABLE",
+      "count": 3,
+      "proportion": 0.08333333333333333
+    },
+    {
+      "label": "MIXED / INDETERMINATE",
+      "count": 1,
+      "proportion": 0.027777777777777776
+    }
+  ],
+  "continuous_series_first_summaries": {
+    "gate_CKA": {
+      "median": 0.33355795177354314,
+      "iqr": [
+        0.2450980077081422,
+        0.48902856590064153
+      ]
+    },
+    "hidden_delta_CKA": {
+      "median": 0.4784294550897627,
+      "iqr": [
+        0.37639164791946683,
+        0.6936898075146808
+      ]
+    },
+    "forecast_delta_cosine": {
+      "median": 0.2932690647413438,
+      "iqr": [
+        0.13466203283780276,
+        0.6051128956724342
+      ]
+    },
+    "native_disagreement": {
+      "median": 0.027272012467468597,
+      "iqr": [
+        0.007813125677218074,
+        0.0534921160967803
+      ]
+    },
+    "swap_to_neutral_ratio": {
+      "median": 1.3056239657690745,
+      "iqr": [
+        1.0261195197517643,
+        1.739136979137698
+      ]
+    },
+    "latent_effect_strength": {
+      "median": 0.01468863049035855,
+      "iqr": [
+        0.00632846187024025,
+        0.03255869828768385
+      ]
+    }
+  }
+}

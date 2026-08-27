@@ -1,0 +1,1 @@
+Training checkpoints are intentionally not staged in Git. This directory contains receiver-bank manifests and SHA-256 registers; full frozen checkpoints are intended for archival storage such as Zenodo, not regular Git history.

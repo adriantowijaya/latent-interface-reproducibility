@@ -1,0 +1,10 @@
+logical_name,relative_path,series_count,frequency,start,end,role
+WHO_ADDITIONAL_31_RAW,data/raw/WHO_additional_31_country.xlsx,31,daily,2020-03-02,2022-10-20,raw source
+WHO_D0_6_RAW,data/raw/WHO_D0_original_6_country.xlsx,6,daily,2020-03-02,2022-10-20,raw source
+WHO31_EXTERNAL,data/processed/WHO31_external_daily_new_cases.csv,31,daily,2020-03-02,2022-10-20,E1 primary external replication
+WHO37_COMPLETE,data/processed/WHO37_daily_new_cases.csv,37,daily,2020-03-02,2022-10-20,D0 + E1 combined audit pool
+ELECTRICITY_RAW,data/raw/Monash_electricity_hourly_raw.ts,321,hourly,2012-01-01,2014-12-31,raw source
+ELECTRICITY319_ELIGIBLE,data/processed/Electricity319_eligible_daily_load.csv,319,daily,2012-01-01,2014-08-20,auditable structurally eligible pool
+ELECTRICITY37_EXTERNAL,data/processed/Electricity37_daily_load.csv,37,daily,2012-01-01,2014-08-20,E2 primary external stress test
+DENGUE_RAW,data/raw/Taiwan_CDC_dengue_raw.csv,,case-level records,,,raw source
+DENGUE7_EXTERNAL,data/processed/Dengue7_daily_notifications.csv,7,daily,2022-01-01,2024-08-20,E3 primary external stress test

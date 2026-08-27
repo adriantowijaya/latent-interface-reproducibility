@@ -1,0 +1,348 @@
+{
+  "phase": "TP-2M.4A",
+  "version": "v1.2-R1-reconciled",
+  "timestamp": "2026-08-26T12:23:12.627058+07:00",
+  "canonical_source_artefacts": [
+    {
+      "artefact_filename": "tp1d_protocol_config.json",
+      "path": "C:\\Workspace\\TESIS\\paper\\Paper-Q1-4\\experiment\\TARELA_TP1D_MultiSeed_Telemetry_v1.0\\config\\tp1d_protocol_config.json",
+      "phase": "TP-1D",
+      "purpose": "supporting canonical training/source protocol",
+      "sha256": "57cabb21d7d6f8f7feb96fc57377e73890bb39b9f74dbb62eab678b2e2a68b11",
+      "authority_level": "machine-readable execution configuration",
+      "exists": "TRUE"
+    },
+    {
+      "artefact_filename": "pipeline.py",
+      "path": "C:\\Workspace\\TESIS\\paper\\Paper-Q1-4\\experiment\\TARELA_TP1D_MultiSeed_Telemetry_v1.0\\reference_core\\tarela_py1\\pipeline.py",
+      "phase": "TP-1D",
+      "purpose": "PY-1 temporal geometry and deterministic preprocessing",
+      "sha256": "dbde706faa0ca63220a884e5d0e321e948a314878c0ae47ee43e0179e4d76b33",
+      "authority_level": "canonical executable implementation",
+      "exists": "TRUE"
+    },
+    {
+      "artefact_filename": "config.py",
+      "path": "C:\\Workspace\\TESIS\\paper\\Paper-Q1-4\\experiment\\TARELA_TP1D_MultiSeed_Telemetry_v1.0\\reference_core\\tarela_py2\\config.py",
+      "phase": "TP-1D",
+      "purpose": "PY-2 model/training constants",
+      "sha256": "da91e86fad5d3259ee36c12e3bfc928b619fd762bda74c6787215910ed15561e",
+      "authority_level": "canonical executable implementation",
+      "exists": "TRUE"
+    },
+    {
+      "artefact_filename": "tp2b_protocol_config.json",
+      "path": "C:\\Workspace\\TESIS\\paper\\Paper-Q1-4\\experiment\\TARELA_TP2B_Latent_Stability_v1.0\\config\\tp2b_protocol_config.json",
+      "phase": "TP-2B",
+      "purpose": "available local latent-stability protocol, not relabelled TP-2C",
+      "sha256": "09cbd6ee9aa2e953c924e1e9e4e48e5074275c6308ae539af6a9e9ed6b99a123",
+      "authority_level": "machine-readable execution configuration",
+      "exists": "TRUE"
+    },
+    {
+      "artefact_filename": "stability_math.py",
+      "path": "C:\\Workspace\\TESIS\\paper\\Paper-Q1-4\\experiment\\TARELA_TP2B_Latent_Stability_v1.0\\tp2b\\stability_math.py",
+      "phase": "TP-2B",
+      "purpose": "available aligned-TV/ARI implementation",
+      "sha256": "8257a7e1df3505f9c38cec034d2b871aa1feefa926a4f0e73432ba3cf14efb00",
+      "authority_level": "canonical executable implementation",
+      "exists": "TRUE"
+    },
+    {
+      "artefact_filename": "tp2d_protocol_config.json",
+      "path": "C:\\Workspace\\TESIS\\paper\\Paper-Q1-4\\experiment\\TARELA_TP2D_Functional_Equivalence_v1.0.1\\config\\tp2d_protocol_config.json",
+      "phase": "TP-2D",
+      "purpose": "functional-equivalence protocol",
+      "sha256": "4035b0e1e072e7e2fb2b2b6c79a9bd88fe0189726bd9fe140bbe186dbe94b6ec",
+      "authority_level": "machine-readable execution configuration",
+      "exists": "TRUE"
+    },
+    {
+      "artefact_filename": "run_tp2d_block_audit.py",
+      "path": "C:\\Workspace\\TESIS\\paper\\Paper-Q1-4\\experiment\\TARELA_TP2D_Functional_Equivalence_v1.0.1\\scripts\\run_tp2d_block_audit.py",
+      "phase": "TP-2D",
+      "purpose": "directed swap and downstream compensation execution",
+      "sha256": "096ff8d0c2d9c2f4918856e9519ae494b651f4a108ab1d2474d89ae3296872b7",
+      "authority_level": "canonical executable implementation",
+      "exists": "TRUE"
+    },
+    {
+      "artefact_filename": "TP2D_EXECUTION_REPORT.md",
+      "path": "C:\\Workspace\\TESIS\\paper\\Paper-Q1-4\\experiment\\TARELA_TP2D_Functional_Equivalence_v1.0.1\\TP2D_EXECUTION_REPORT.md",
+      "phase": "TP-2D",
+      "purpose": "functional diagnosis report",
+      "sha256": "fc0fb7f2c54a9a9333a7f5d4ac48bc724ae3e1c269c7d35e520c5bb907a02b05",
+      "authority_level": "execution report",
+      "exists": "TRUE"
+    },
+    {
+      "artefact_filename": "tp2e_protocol_config.json",
+      "path": "C:\\Workspace\\TESIS\\paper\\Paper-Q1-4\\experiment\\TARELA_TP2E_Interface_Stability_v1.0\\config\\tp2e_protocol_config.json",
+      "phase": "TP-2E",
+      "purpose": "SAFIR screen protocol",
+      "sha256": "ae121e23cba3181bcabd1d809d05aefc55a79f28c3e4fd5bbf271b9d5a7f8c22",
+      "authority_level": "machine-readable execution configuration",
+      "exists": "TRUE"
+    },
+    {
+      "artefact_filename": "interface_regularizer.py",
+      "path": "C:\\Workspace\\TESIS\\paper\\Paper-Q1-4\\experiment\\TARELA_TP2E_Interface_Stability_v1.0\\tp2e\\interface_regularizer.py",
+      "phase": "TP-2E",
+      "purpose": "SAFIR/THETA_RKA loss implementation",
+      "sha256": "6212f3e31e7ee425f004ec8088b9e8ec3b94ac7df13a34016b26af8c2ff45307",
+      "authority_level": "canonical executable implementation",
+      "exists": "TRUE"
+    },
+    {
+      "artefact_filename": "run_tp2e_single_training.py",
+      "path": "C:\\Workspace\\TESIS\\paper\\Paper-Q1-4\\experiment\\TARELA_TP2E_Interface_Stability_v1.0\\scripts\\run_tp2e_single_training.py",
+      "phase": "TP-2E",
+      "purpose": "TP-2E training entry point",
+      "sha256": "affe85e50fb03c24abd3cffc2f2d5ce06f9b091a7f1c56065385e4e87589cf01",
+      "authority_level": "canonical executable implementation",
+      "exists": "TRUE"
+    },
+    {
+      "artefact_filename": "TP2G_NEGATIVE_MECHANISM_POSITIONING_REPORT.md",
+      "path": "C:\\Workspace\\TESIS\\paper\\Paper-Q1-4\\experiment\\TARELA_TP2E_Interface_Stability_v1.0\\TP2G_NEGATIVE_MECHANISM_POSITIONING_REPORT.md",
+      "phase": "TP-2M.3",
+      "purpose": "later positioning source only; not TP-2M.3",
+      "sha256": "980f822bce066d51d7edf4814476cb3bf8b07edf607a905f044a4f25dc93651f",
+      "authority_level": "claim-governance artefact",
+      "exists": "TRUE"
+    },
+    {
+      "artefact_filename": "TP2G1_PRIOR_ART_AND_NOVELTY_HARDENING_REPORT.md",
+      "path": "C:\\Workspace\\TESIS\\paper\\Paper-Q1-4\\experiment\\TARELA_TP2E_Interface_Stability_v1.0\\TP2G1_PRIOR_ART_AND_NOVELTY_HARDENING_REPORT.md",
+      "phase": "TP-2M.3",
+      "purpose": "later positioning source only; not TP-2M.3",
+      "sha256": "41f60de3e93b1cd8c4a9ee4e57c20ef7f2aeb399bfec65599264374e10ae7d2d",
+      "authority_level": "claim-governance artefact",
+      "exists": "TRUE"
+    }
+  ],
+  "canonical_source_hashes": {
+    "C:\\Workspace\\TESIS\\paper\\Paper-Q1-4\\experiment\\TARELA_TP1D_MultiSeed_Telemetry_v1.0\\config\\tp1d_protocol_config.json": "57cabb21d7d6f8f7feb96fc57377e73890bb39b9f74dbb62eab678b2e2a68b11",
+    "C:\\Workspace\\TESIS\\paper\\Paper-Q1-4\\experiment\\TARELA_TP1D_MultiSeed_Telemetry_v1.0\\reference_core\\tarela_py1\\pipeline.py": "dbde706faa0ca63220a884e5d0e321e948a314878c0ae47ee43e0179e4d76b33",
+    "C:\\Workspace\\TESIS\\paper\\Paper-Q1-4\\experiment\\TARELA_TP1D_MultiSeed_Telemetry_v1.0\\reference_core\\tarela_py2\\config.py": "da91e86fad5d3259ee36c12e3bfc928b619fd762bda74c6787215910ed15561e",
+    "C:\\Workspace\\TESIS\\paper\\Paper-Q1-4\\experiment\\TARELA_TP2B_Latent_Stability_v1.0\\config\\tp2b_protocol_config.json": "09cbd6ee9aa2e953c924e1e9e4e48e5074275c6308ae539af6a9e9ed6b99a123",
+    "C:\\Workspace\\TESIS\\paper\\Paper-Q1-4\\experiment\\TARELA_TP2B_Latent_Stability_v1.0\\tp2b\\stability_math.py": "8257a7e1df3505f9c38cec034d2b871aa1feefa926a4f0e73432ba3cf14efb00",
+    "C:\\Workspace\\TESIS\\paper\\Paper-Q1-4\\experiment\\TARELA_TP2D_Functional_Equivalence_v1.0.1\\config\\tp2d_protocol_config.json": "4035b0e1e072e7e2fb2b2b6c79a9bd88fe0189726bd9fe140bbe186dbe94b6ec",
+    "C:\\Workspace\\TESIS\\paper\\Paper-Q1-4\\experiment\\TARELA_TP2D_Functional_Equivalence_v1.0.1\\scripts\\run_tp2d_block_audit.py": "096ff8d0c2d9c2f4918856e9519ae494b651f4a108ab1d2474d89ae3296872b7",
+    "C:\\Workspace\\TESIS\\paper\\Paper-Q1-4\\experiment\\TARELA_TP2D_Functional_Equivalence_v1.0.1\\TP2D_EXECUTION_REPORT.md": "fc0fb7f2c54a9a9333a7f5d4ac48bc724ae3e1c269c7d35e520c5bb907a02b05",
+    "C:\\Workspace\\TESIS\\paper\\Paper-Q1-4\\experiment\\TARELA_TP2E_Interface_Stability_v1.0\\config\\tp2e_protocol_config.json": "ae121e23cba3181bcabd1d809d05aefc55a79f28c3e4fd5bbf271b9d5a7f8c22",
+    "C:\\Workspace\\TESIS\\paper\\Paper-Q1-4\\experiment\\TARELA_TP2E_Interface_Stability_v1.0\\tp2e\\interface_regularizer.py": "6212f3e31e7ee425f004ec8088b9e8ec3b94ac7df13a34016b26af8c2ff45307",
+    "C:\\Workspace\\TESIS\\paper\\Paper-Q1-4\\experiment\\TARELA_TP2E_Interface_Stability_v1.0\\scripts\\run_tp2e_single_training.py": "affe85e50fb03c24abd3cffc2f2d5ce06f9b091a7f1c56065385e4e87589cf01",
+    "C:\\Workspace\\TESIS\\paper\\Paper-Q1-4\\experiment\\TARELA_TP2E_Interface_Stability_v1.0\\TP2G_NEGATIVE_MECHANISM_POSITIONING_REPORT.md": "980f822bce066d51d7edf4814476cb3bf8b07edf607a905f044a4f25dc93651f",
+    "C:\\Workspace\\TESIS\\paper\\Paper-Q1-4\\experiment\\TARELA_TP2E_Interface_Stability_v1.0\\TP2G1_PRIOR_ART_AND_NOVELTY_HARDENING_REPORT.md": "41f60de3e93b1cd8c4a9ee4e57c20ef7f2aeb399bfec65599264374e10ae7d2d"
+  },
+  "canonical_protocol_freeze": "PASS_RECONCILED",
+  "unresolved_fields": [],
+  "conflicts": [],
+  "model": {
+    "architecture": "TARELA-LSTM C1 fixed reference",
+    "encoder": "SparseLatentRegimeEncoder: Dense(8, relu) -> Dense(5) -> sparsemax",
+    "latent_dimension": 5,
+    "encoder_hidden": 8,
+    "latent_activation": "sparsemax",
+    "fusion": "concat [RevIN target history (1), numeric features (3), theta (5)]",
+    "lstm": "Keras LSTM, 50 units",
+    "interface": "latent-only LSTM gate drive theta @ W_theta across 4 gates, dimension 200"
+  },
+  "training": {
+    "seeds": [
+      42,
+      123,
+      2025
+    ],
+    "optimizer": "Adam with optimizer clipnorm=1.0",
+    "learning_rate": 0.001,
+    "batch_size": 16,
+    "max_epochs": 100,
+    "early_stopping": true,
+    "patience": 10,
+    "min_delta": 1e-06,
+    "checkpoint_rule": "restore/select best validation forecasting MSE"
+  },
+  "objective": {
+    "forecast_loss": "MSE on RevIN-normalised target",
+    "auxiliary_losses": [
+      "entropy target",
+      "direction sparse CE",
+      "volatility sparse CE",
+      "amplitude BCE"
+    ],
+    "coefficients": {
+      "lambda_entropy": 0.001,
+      "lambda_dir": 0.001,
+      "lambda_vol": 0.001,
+      "lambda_amp": 0.001,
+      "entropy_target": 0.35
+    },
+    "TP2E_stability_term": "SAFIR lambda_S * (1 - linear CKA(functional latent gate drive, train-standardized dynamic phase-state anchor)); candidate lambdas 1e-4, 1e-3, 1e-2; THETA_RKA_1e-3 control"
+  },
+  "preprocessing": {
+    "target": "New_cases common schema target",
+    "transforms": "nonnegative clipping for feature construction; log1p level; bounded slope; rolling slope volatility; dynamic phase-state features",
+    "features": {
+      "numeric": [
+        "level_log",
+        "bounded_slope",
+        "slope_volatility"
+      ],
+      "document_state": 17
+    },
+    "scaling": "train-inner-only feature scaling; RevIN per sequence for target stream",
+    "inverse_transform": "RevIN denormalize y_pred using per-sequence mu/sigma",
+    "clipping": "target feature construction clips lower at 0; class weights clipped to [0.2, 5.0]",
+    "numerical_safeguards": {
+      "eps": 1e-08,
+      "revin_eps": 1e-05,
+      "feature_scale_eps": 1e-08
+    }
+  },
+  "temporal_geometry": {
+    "lookback": 7,
+    "horizon": 1,
+    "splitting": "chronological rolling outer train/test with final 28 outer-train rows as validation",
+    "windows": 10,
+    "stride": 56,
+    "validation": 28,
+    "test": 28,
+    "minimum_history": "963 daily observations per series for complete canonical 10-window protocol",
+    "initial_outer_train_size": 428
+  },
+  "TP2C": {
+    "conceptual_endpoint_family": "TP-2C latent / representational stability",
+    "operational_implementation": "TP-2B frozen latent-stability artefacts",
+    "historical_TP2C_executable_claimed": false,
+    "seed_set": [
+      42,
+      123,
+      2025
+    ],
+    "seed_pairs": [
+      [
+        42,
+        123
+      ],
+      [
+        42,
+        2025
+      ],
+      [
+        123,
+        2025
+      ]
+    ],
+    "latent_tensor": "best_restored theta/latent mixture sequences, K=5",
+    "alignment": {
+      "source": "train_inner",
+      "transition_feature": "state_transition_intensity",
+      "position": "last_input_timestep",
+      "tertiles": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "samples_per_context": 32,
+      "total_samples": 96,
+      "selection": "chronologically_evenly_spaced"
+    },
+    "permutation": {
+      "method": "exhaustive_minimum_cost_assignment_equivalent_to_Hungarian_for_K5",
+      "cost": "mean_squared_soft_activation_trajectory",
+      "tie_break": "lexicographic",
+      "permutation_fit_partition": "train_inner_alignment_panel"
+    },
+    "TV": "mean_total_variation as implemented in tp2b/stability_math.py",
+    "ARI": "adjusted_rand_index over dominant component argmax labels",
+    "aggregation": "apply taxonomy to medians of 18 block-level medians (each block first aggregates its 3 seed pairs)",
+    "taxonomy_thresholds": {
+      "hard_reproducible_ari_min": 0.75,
+      "soft_reproducible_aligned_tv_max": 0.15,
+      "material_alignment_gain_tv_min": 0.1
+    },
+    "taxonomy_rule": [
+      "if hard_reproducible and soft_reproducible and material_alignment_gain: PERMUTATION-DOMINATED",
+      "if hard_reproducible and soft_reproducible and not material_alignment_gain: STABLE",
+      "if exactly one of hard_reproducible/soft_reproducible: SOFT-REPARAMETERISED",
+      "if neither hard_reproducible nor soft_reproducible: STRUCTURALLY UNSTABLE"
+    ],
+    "authority_bridge": "C:\\Workspace\\TESIS\\paper\\Paper-Q1-4\\experiment\\TP2M4A_R1\\governance\\TP2M4A_LATENT_STABILITY_AUTHORITY_BRIDGE.md"
+  },
+  "TP2D": {
+    "gate_CKA": "linear CKA, mean across 4 LSTM gates",
+    "hidden_delta_CKA": "linear CKA of h_full - h_mean_theta",
+    "forecast_delta_cosine": "cosine of prediction_full - prediction_mean_theta",
+    "native_disagreement": "forecast relative disagreement",
+    "swap_test": "directed sender theta insertion into receiver LSTM/output with receiver observed/numeric inputs",
+    "neutral_test": "receiver train-inner mean-theta neutral replacement repeated across 7 timesteps",
+    "phenotype_classifier": "TP2D config decision rule",
+    "phenotype_thresholds": {
+      "latent_effect_strength_max": 0.01,
+      "strong_gate_cka_min": 0.75,
+      "strong_hidden_delta_cka_min": 0.75,
+      "forecast_delta_cosine_min": 0.7,
+      "swap_ratio_max": 1.0,
+      "predictive_similarity_disagreement_max": 0.1
+    }
+  },
+  "TP2E": {
+    "intervention": "SAFIR interface regularization; THETA_RKA control is non-finalist control",
+    "efficacy_endpoints": "forecast guards, interface gate-CKA gain, swap-ratio reduction, non-collapse, target specificity"
+  },
+  "predictive_metrics": {
+    "training_checkpoint_governance": {
+      "metric": "validation forecasting MSE",
+      "role": "early stopping and best-checkpoint selection",
+      "status": "unchanged from canonical executable protocol"
+    },
+    "scientific_forecast_reporting": {
+      "primary": "MAE",
+      "supporting": [
+        "RMSE",
+        "SMAPE"
+      ],
+      "diagnostic_only": [
+        "R2"
+      ],
+      "role_separation": "Validation MSE may govern training/checkpoint selection while MAE is the primary predictive-preservation reporting metric.",
+      "status": "AUTHORISED prospective TP-2M.4 reporting policy; no contradictory higher-authority local artefact found."
+    }
+  },
+  "inference": {
+    "primary_unit": "series",
+    "repeated_measure_unit": "window/block/seed within series",
+    "aggregation": "hierarchical by stratum then series; no pooled cross-domain p-value"
+  },
+  "authority_reconciliation": {
+    "TP2C_conceptual_label": "TP-2C latent / representational stability endpoint family",
+    "operational_source_phase": "TP-2B",
+    "operational_source_artefacts": [
+      "C:\\Workspace\\TESIS\\paper\\Paper-Q1-4\\experiment\\TARELA_TP2B_Latent_Stability_v1.0\\config\\tp2b_protocol_config.json",
+      "C:\\Workspace\\TESIS\\paper\\Paper-Q1-4\\experiment\\TARELA_TP2B_Latent_Stability_v1.0\\tp2b\\stability_math.py",
+      "C:\\Workspace\\TESIS\\paper\\Paper-Q1-4\\experiment\\TARELA_TP2B_Latent_Stability_v1.0\\TP2B_EXECUTION_REPORT.md",
+      "C:\\Workspace\\TESIS\\paper\\Paper-Q1-4\\experiment\\TARELA_TP2B_Latent_Stability_v1.0\\outputs\\tp2b_audit\\TP2B_LATENT_STABILITY_AUDIT_REPORT.md"
+    ],
+    "historical_TP2C_executable_claimed": false,
+    "bridge_status": "AUTHORISED"
+  },
+  "TP2M3_governance": {
+    "historical_named_artefact_found": false,
+    "prospective_formalisation_created": true,
+    "external_outcomes_seen_before_formalisation": false,
+    "status": "AUTHORISED",
+    "supporting_later_positioning_sources": [
+      {
+        "path": "C:\\Workspace\\TESIS\\paper\\Paper-Q1-4\\experiment\\TARELA_TP2E_Interface_Stability_v1.0\\TP2G_NEGATIVE_MECHANISM_POSITIONING_REPORT.md",
+        "role": "SUPPORTING_LATER_POSITIONING_SOURCE",
+        "sha256": "980f822bce066d51d7edf4814476cb3bf8b07edf607a905f044a4f25dc93651f"
+      },
+      {
+        "path": "C:\\Workspace\\TESIS\\paper\\Paper-Q1-4\\experiment\\TARELA_TP2E_Interface_Stability_v1.0\\TP2G1_PRIOR_ART_AND_NOVELTY_HARDENING_REPORT.md",
+        "role": "SUPPORTING_LATER_POSITIONING_SOURCE",
+        "sha256": "41f60de3e93b1cd8c4a9ee4e57c20ef7f2aeb399bfec65599264374e10ae7d2d"
+      }
+    ]
+  }
+}

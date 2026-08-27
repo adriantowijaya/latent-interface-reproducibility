@@ -1,0 +1,61 @@
+{
+  "phase": "TP-2M.4B.2-R1",
+  "version": "v1.0",
+  "created_utc": "2026-08-26T16:57:11.365822+00:00",
+  "frozen_external_N": 31,
+  "alignment_evaluable_N": 30,
+  "three_variant_matched_N": 29,
+  "alignment_boundary": {
+    "country": "Palau",
+    "reason": "ALIGNMENT_PROTOCOL_EXECUTABILITY_BOUNDARY: not evaluable under frozen TP2B alignment protocol"
+  },
+  "comparator_training_boundary": {
+    "country": "Vanuatu",
+    "reason": "THETA_RKA comparator-training incompatible under the frozen protocol; deterministic non-finite encoder gradients across all three seeds"
+  },
+  "matched_countries": [
+    "Australia",
+    "Austria",
+    "Bangladesh",
+    "Bhutan",
+    "Brunei Darussalam",
+    "Cambodia",
+    "China",
+    "Fiji",
+    "French Polynesia",
+    "Guam",
+    "Lao People's Democratic Republic",
+    "Malaysia",
+    "Maldives",
+    "Mexico",
+    "Mongolia",
+    "Myanmar",
+    "Nepal",
+    "New Caledonia",
+    "New Zealand",
+    "Northern Mariana Islands",
+    "Papua New Guinea",
+    "Philippines",
+    "Singapore",
+    "Sri Lanka",
+    "Switzerland",
+    "Thailand",
+    "Timor-Leste",
+    "United Kingdom of Great Britain and Northern Ireland",
+    "Viet Nam"
+  ],
+  "matched_cohort_derivation": "Derived deterministically from persisted TP2M4B2 valid-complete run matrix requiring FUNCTIONAL, LATENT_DISABLED, and THETA_RKA_1e-3 for seeds 42, 123, and 2025.",
+  "hashes": {
+    "TP2M4B2_PRETRAINING_FREEZE.json": "569a0b7ae0d44437e85b3be24f34b7d58fe5f5dd87a0a94a65e4ee228702bf67",
+    "TP2M4B1_R1_MECHANISM_EVALUABLE_FREEZE.json": "33fd57377f8ac8e94400a7ff802b8f71b5123126cf8882395426034e8a8d0f44",
+    "TP2M4B2_EXECUTION_REPORT.md": "b453ae1ef4b1073c990466c57ae3fb67fb5cadc802f35609ecf4ef1d59c88e8e"
+  },
+  "statement": "The 29-country complete three-variant matched cohort was frozen solely from pre-outcome canonical protocol executability. No forecast, functional-swap, receiver-transfer, Gate 2-7, or intervention outcome was used to determine membership.",
+  "strict_TP2M4B2_full_matrix_integrity": "FAIL_EXECUTION_BOUNDARY",
+  "strict_reason": "267 / 270 authorised runs completed; deterministic Vanuatu THETA_RKA comparator-training failure for seeds 42, 123, and 2025.",
+  "new_training_runs": 0,
+  "optimizer_steps": 0,
+  "new_checkpoints": 0,
+  "country_replacement": false,
+  "protocol_modification": false
+}

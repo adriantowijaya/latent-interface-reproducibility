@@ -1,0 +1,8 @@
+source_path_or_pattern,category,reason,reproducibility_impact,alternative_provided
+experiment/**/checkpoint*.h5; *.keras; *.ckpt; *.pb,checkpoint,large binary Git exclusion,hash/manifests staged; full archive external,manifests/checkpoints
+TP2M4_EXTERNAL_VALIDATION_PACKAGE_v1.0/data/raw/Taiwan_CDC_dengue_raw.csv,raw data,case-level dengue source excluded for privacy/data minimisation,none for quick reproduction,data/dengue/Dengue7_daily_notifications.csv
+TP2M4_EXTERNAL_VALIDATION_PACKAGE_v1.0/data/raw/Monash_electricity_hourly_raw.ts,raw data,full raw electricity archive excluded,none for reported results,data/electricity/Electricity37_daily_load.csv
+TP2M4_EXTERNAL_VALIDATION_PACKAGE_v1.0/data/raw/WHO_*.xlsx,raw data,raw WHO workbooks excluded,none for quick reproduction,data/who/WHO31_external_daily_new_cases.csv
+WHO6_D0_internal_reference.csv,processed data,not required for reported external multi-architecture results,documented exclusion,manifests/cohorts/DATASET_MANIFEST.csv
+manuscript.tex; Neurocomputing manuscript PDF; submission metadata,manuscript,reproducibility package only,none,README/REPRODUCIBILITY
+obsolete/superseded phase outputs,results,avoid stale portfolio statistics,none,TP2M5B_R1/TP2M5C/TP2M4C_R1/TP2M4D/TP2M4B2_R1 staged results

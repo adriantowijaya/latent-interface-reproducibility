@@ -1,0 +1,4 @@
+receiver_family,input_width,receiver_hidden_width,trainable_receiver_parameters,total_trainable_model_parameters,non_trainable_parameters,parameter_ratio_vs_LSTM,number_of_receiver_layers,architecture_notes
+LSTM_REFERENCE,9,50,12000,12282,0,1.0,1,LSTM units=50
+GRU_CONTROLLED_ALTERNATIVE,9,50,9150,9432,0,0.767953102100635,1,GRU units=50 reset_after=True
+TRANSFORMER_CONTROLLED_ALTERNATIVE,9,32,11008,11272,0,0.9177658361830321,1,"1 block, d_model=32, heads=4, d_ff=96"

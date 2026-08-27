@@ -1,0 +1,4 @@
+receiver_family,synthetic_input_y_shape,synthetic_input_num_shape,synthetic_input_doc_shape,canonical_fused_width,forecast_output_shape,theta_sequence_shape,auxiliary_head_shapes,uses_real_dataset,scientific_inference,status
+LSTM_REFERENCE,"[2,7,1]","[2,7,3]","[2,7,17]",9,"[2, 1]","[2, 7, 5]","{'dir': [2, 3], 'vol': [2, 3], 'amp': [2, 1]}",FALSE,FALSE,PASS
+GRU_CONTROLLED_ALTERNATIVE,"[2,7,1]","[2,7,3]","[2,7,17]",9,"[2, 1]","[2, 7, 5]","{'dir': [2, 3], 'vol': [2, 3], 'amp': [2, 1]}",FALSE,FALSE,PASS
+TRANSFORMER_CONTROLLED_ALTERNATIVE,"[2,7,1]","[2,7,3]","[2,7,17]",9,"[2, 1]","[2, 7, 5]","{'dir': [2, 3], 'vol': [2, 3], 'amp': [2, 1]}",FALSE,FALSE,PASS

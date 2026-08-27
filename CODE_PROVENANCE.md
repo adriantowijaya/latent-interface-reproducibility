@@ -1,0 +1,1 @@
+Original paths are experiment-relative. See `audit/INCLUDED_FILES.csv` for original and staged SHA-256 values. Only `src/models/controlled_receivers.py` is modified for portability by extracting frozen receiver definitions from absolute-path training scripts; no scientific computation was changed.
