@@ -6,8 +6,10 @@ numpy==1.25.0
 pandas==2.0.3
 h5py==3.9.0
 
-Observed executable during TP-2M.5E.2-R1:
-C:\Users\adria\anaconda3\envs\knimeenv_python_39\python.exe
+Observed local conda environment during TP-2M.5E.2-R1:
+knimeenv_python_39
+
+The local executable path is intentionally omitted from reviewer-facing documentation.
 
 Classification:
 VERIFICATION_ENVIRONMENT_DIFFERENCE

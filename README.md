@@ -1,10 +1,10 @@
 # Neurocomputing Reproducibility Package
 
-This local repository stages the reproducibility materials for "Latent Representation Instability Across Recurrent and Attention-Based Receivers: Functional Equivalence and Receiver Transfer in Neural Time-Series Forecasting".
+This repository provides the reproducibility materials for "Latent Representation Instability Across Recurrent and Attention-Based Receivers: Functional Equivalence and Receiver Transfer in Neural Time-Series Forecasting".
 
 ## Scientific purpose
 
-The package supports zero-training regeneration of manuscript tables and figures from frozen machine-readable results, plus a documented path for full computational reproduction.
+The repository supports zero-training regeneration of manuscript tables and figures from frozen machine-readable results, plus a documented path for full computational reproduction.
 
 ## What this repository reproduces
 
@@ -12,23 +12,50 @@ It covers the reference TARELA-LSTM configuration, GRU controlled receiver subst
 
 ## What this repository does not claim
 
-It does not publish a GitHub release, include checkpoint weights, train models during quick reproduction, or claim architecture-universal results beyond the staged receiver substitutions.
+This repository does not include the frozen checkpoint banks in Git history and does not claim architecture-independent or universal latent-instability behaviour beyond the controlled receiver substitutions evaluated in the study.
 
 ## Architecture configurations
 
 The alternative GRU and Transformer configurations are controlled receiver substitutions within the same sparse latent-interface system; they are not standalone state-of-the-art forecasting baselines.
 
+The reference TARELA-LSTM implementation is included to make the study self-contained. Its inclusion in this repository does not position TARELA-LSTM itself as the methodological novelty of the accompanying manuscript.
+
 ## Data strata
 
-Staged data are processed analytical files for WHO COVID-19, Electricity-37, and Dengue-7. Raw dengue case-level records, raw global WHO archives, and the full raw Electricity archive are excluded.
+Staged data are processed analytical files for WHO COVID-19, Electricity-37, and Dengue-7. Raw Taiwan Dengue case-level records, raw full WHO archives, and the full raw Electricity archive are absent from Git history. See [DATA_PROVENANCE.md](DATA_PROVENANCE.md) and [DATA_LICENSES.md](DATA_LICENSES.md).
+
+The Dengue data retain a column named `Country` for frozen analytical compatibility with the shared series-processing interface. In this Dengue subset, `Country` identifies county/city series labels and does not mean sovereign country.
+
+## Reviewer quick path
+
+1. Read [MODEL_ARCHITECTURES.md](MODEL_ARCHITECTURES.md) to identify the reference LSTM and controlled GRU/Transformer receiver substitutions.
+2. Read [ENVIRONMENT_PROVENANCE.md](ENVIRONMENT_PROVENANCE.md) to distinguish the canonical environment, quick verification environment, and historical training-evidence boundary.
+3. Run the zero-training quick reproduction commands below.
+4. Inspect regenerated manuscript outputs under [results/manuscript/](results/manuscript/).
+5. Use [audit/](audit/) only for deeper provenance, licensing, environment, and release-closure evidence.
 
 ## Quick reproduction
 
-Run `python scripts/verify_environment.py`, `python scripts/verify_data_hashes.py`, `python scripts/verify_protocol.py`, `python scripts/smoke_test_models.py`, `python scripts/reproduce_tables.py`, and `python scripts/reproduce_figures.py`.
+Run:
+
+```bash
+python scripts/verify_environment.py
+python scripts/verify_data_hashes.py
+python scripts/verify_protocol.py
+python scripts/smoke_test_models.py
+python scripts/reproduce_tables.py
+python scripts/reproduce_figures.py
+```
+
+This path performs zero training, zero optimizer steps, and no checkpoint inference. Expected outputs are regenerated from frozen machine-readable results. The smoke-test identities are LSTM 12282 parameters, GRU 9432 parameters, Transformer 11272 parameters, K=5, L=7, H=1, and fusion width=9.
 
 ## Full reproduction
 
-See `full_reproduction/README.md`. This route retrains receiver banks and reruns structural and functional audits; it is intentionally not executed in this freeze.
+See [full_reproduction/README.md](full_reproduction/README.md). This route documents retraining and complete mechanism reproduction, and is separate from the zero-training reviewer path. Fixed seeds and deterministic TensorFlow controls are used, but bitwise-identical checkpoints across platforms are not guaranteed.
+
+## Known executability boundaries
+
+Palau WHO structural alignment is not executable because the train-inner transition-intensity quantiles collapse. T118 Electricity structural alignment is not executable because the canonical middle context has fewer than 32 observations. The Vanuatu LSTM THETA-RKA comparator reaches a deterministic non-finite-gradient boundary in intervention. These cases were retained in applicable forecast denominators and were not replaced.
 
 ## Repository layout
 
@@ -36,19 +63,19 @@ See `full_reproduction/README.md`. This route retrains receiver banks and reruns
 
 ## Environment
 
-The canonical target is Python 3.9.16 with TensorFlow 2.13.0, NumPy 1.24.3, Pandas 2.0.3, and h5py 3.9.0. The local validation environment is recorded in `environment-lock.txt`.
+The canonical scientific reproduction specification is [environment-canonical.yml](environment-canonical.yml): Python 3.9.16 with TensorFlow 2.13.0, NumPy 1.24.3, Pandas 2.0.3, and h5py 3.9.0. The zero-training validation environment is recorded in [environment-verification.txt](environment-verification.txt) and [environment-lock.txt](environment-lock.txt). The exact historical training package lock is not fully recoverable from persisted metadata; the observed TensorFlow and NumPy difference is documented as a provenance boundary, not scientific protocol drift.
 
 ## Data licensing
 
-The MIT License applies to original source code and repository documentation authored for this project. It does not relicense third-party datasets contained under `data/`.
+The [MIT License](LICENSE) applies to original source code and repository documentation authored for this project. It does not relicense third-party datasets contained under [data/](data/). Dataset-specific sources and terms are documented in [DATA_LICENSES.md](DATA_LICENSES.md).
 
 ## Checkpoint availability
 
-Checkpoints are not staged in Git. Hash registers and receiver-bank manifests are staged; full checkpoint archives belong in external archival storage such as Zenodo.
+Frozen checkpoint banks are not stored in Git history. Checkpoint hash registers and receiver-bank manifests are provided for provenance. A separately versioned archival package may be deposited in an external research repository.
 
 ## Citation
 
-Use `CITATION.cff`.
+Use [CITATION.cff](CITATION.cff).
 
 ## Contact
 

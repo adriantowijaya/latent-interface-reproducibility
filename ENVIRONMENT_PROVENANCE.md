@@ -16,9 +16,7 @@ The repository canonical reproduction specification is:
 - Pandas 2.0.3
 - h5py 3.9.0
 
-This specification is represented by `requirements.txt`, `scripts/verify_environment.py`, and `environment-canonical.yml`. A pre-existing local conda environment named `knimeenv_python_39_20260428` was inspected during TP-2M.5E.2-R1 and matched these versions:
-
-`C:\Users\adria\anaconda3\envs\knimeenv_python_39_20260428\python.exe`
+This specification is represented by `requirements.txt`, `scripts/verify_environment.py`, and `environment-canonical.yml`. A pre-existing local conda environment named `knimeenv_python_39_20260428` was inspected during TP-2M.5E.2-R1 and matched these versions. The local executable path is intentionally omitted from reviewer-facing documentation.
 
 No new conda environment was created during TP-2M.5E.2-R1.
 
@@ -49,9 +47,7 @@ The TP2M5E2 quick reproduction environment is distinct from the canonical specif
 - Pandas 2.0.3
 - h5py 3.9.0
 
-During TP-2M.5E.2-R1, this environment was inspected as:
-
-`C:\Users\adria\anaconda3\envs\knimeenv_python_39\python.exe`
+During TP-2M.5E.2-R1, this environment was inspected as the local conda environment named `knimeenv_python_39`. The local executable path is intentionally omitted from reviewer-facing documentation.
 
 This environment is recorded in `environment-lock.txt` and `environment-verification.txt`. It is suitable for the zero-training quick reproduction checks performed here, but it is not the declared training environment.
 
