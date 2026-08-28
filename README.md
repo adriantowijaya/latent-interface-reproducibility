@@ -71,7 +71,13 @@ The [MIT License](LICENSE) applies to original source code and repository docume
 
 ## Checkpoint availability
 
-Frozen checkpoint banks are not stored in Git history. Checkpoint hash registers and receiver-bank manifests are provided for provenance. A separately versioned archival package may be deposited in an external research repository.
+Frozen checkpoint banks are not stored in Git history. Checkpoint hash registers and receiver-bank manifests are provided for provenance. A separately versioned archival package is associated with the repository for public archival deposition.
+
+## Archival record
+
+A versioned archival record of the reproducibility materials, including the frozen checkpoint banks, is associated with Zenodo DOI 10.5281/zenodo.22140513.
+
+DOI: https://doi.org/10.5281/zenodo.22140513
 
 ## Citation
 

@@ -7,6 +7,16 @@
   "release_metadata_commit_sha_note": "Recorded externally after commit creation; not embedded in this freeze file to avoid self-reference.",
   "historical_staging_tag": "tp2m5e2-repro-freeze-v1.0",
   "final_candidate_release_tag": "neurocomputing-repro-v1.0.0-rc1",
+  "release_candidate_2_tag": "neurocomputing-repro-v1.0.0-rc2",
+  "final_release_tag": "v1.0.0",
+  "reserved_Zenodo_DOI": "10.5281/zenodo.22140513",
+  "DOI_STATUS": "RESERVED_NOT_YET_REGISTERED_PUBLICLY",
+  "checkpoint_artifact_license": "CC_BY_4_0_AUTHOR_CONFIRMED",
+  "publication_visibility_status": {
+    "GitHub_repository_visibility": "PRIVATE",
+    "GitHub_release_created": false,
+    "Zenodo_published": false
+  },
   "TP2M5A_freeze_SHA": "02f237708fc67b29f6f4e2ba98f2ef5af248d48b979e000a2091a742ef3fa0df",
   "dataset_hashes": {
     "WHO": "f9f6af1c1217a118b14ac76eddf5bae4080e461eba43ad350d0bb98f2695eeee",
