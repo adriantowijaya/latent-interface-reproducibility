@@ -87,10 +87,10 @@ Frozen checkpoint banks are not stored in Git history. Checkpoint hash registers
 
 ## Archival record
 
-The original v1.0.0 archive was prepared under Zenodo DOI `10.5281/zenodo.22140513`. The KBS v1.1.0 extension is intended to be deposited as a **new Zenodo version**, retaining the original foundation files and adding the post hoc KBS extension. The manuscript should cite the **specific v1.1.0 version DOI** once Zenodo assigns and publishes it.
+The original v1.0.0 archive is publicly archived at Zenodo DOI `10.5281/zenodo.22140513`. The KBS v1.1.0 extension is intended to be deposited as a **new Zenodo version**, retaining the original foundation files and adding the post hoc KBS extension. The manuscript should cite the **specific v1.1.0 version DOI** once Zenodo assigns and publishes it.
 
 - v1.0.0 foundation DOI: `10.5281/zenodo.22140513`
-- v1.1.0 specific DOI: `TO_BE_ASSIGNED_BY_ZENODO_NEW_VERSION`
+- v1.1.0 archival DOI: to be recorded after publication of the Zenodo new version.
 
 ## Citation
 
