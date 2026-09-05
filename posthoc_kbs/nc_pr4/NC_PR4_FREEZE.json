@@ -1,0 +1,14 @@
+{
+  "phase": "NC-PR4",
+  "output_root": "C:\\Workspace\\TESIS\\paper\\Paper-Q1-4\\experiment\\NC_PR4_ZeroTraining",
+  "canonical_96_reproduced": true,
+  "panel_72_portfolio_median_signal_preserved": true,
+  "panel_48_portfolio_median_signal_preserved": true,
+  "cross_architecture_classification": "CROSS_ARCH_DIRECTIONALLY_CONSISTENT_FOR_FUNCTIONAL",
+  "new_model_training_performed": false,
+  "optimizer_invoked": false,
+  "gradients_applied": false,
+  "model_weights_modified": false,
+  "pre_existing_checkpoints_modified": false,
+  "new_trained_checkpoints_created": false
+}

@@ -1,9 +1,9 @@
 cff-version: 1.2.0
-message: "If you use this reproducibility package, please cite it."
-title: "Latent Representation Instability Across Recurrent and Attention-Based Receivers: Functional Equivalence and Receiver Transfer in Neural Time-Series Forecasting"
+message: "If you use this reproducibility package, please cite the specific archived release version."
+title: "Evaluating Neural Time-Series Latent-Interface Reliability: Structural Reproducibility, Receiver Compatibility, and Receiver Generalization — Reproducibility Package"
 type: software
-version: "1.0.0"
-doi: "10.5281/zenodo.22140513"
+version: "1.1.0"
+repository-code: "https://github.com/adriantowijaya/latent-interface-reproducibility"
 authors:
   - family-names: "Wijaya"
     given-names: "Adrianto Mahendra"
@@ -14,4 +14,4 @@ authors:
   - family-names: "Mohd Aboobaider"
     given-names: "Burhanuddin"
     orcid: "https://orcid.org/0000-0001-8976-7416"
-abstract: "Versioned software and data reproducibility resource for the associated manuscript."
+abstract: "Version 1.1.0 preserves the original latent-interface reproducibility foundation and adds zero-training KBS post hoc robustness and receiver-generalization evidence."

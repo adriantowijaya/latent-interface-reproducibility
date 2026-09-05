@@ -1,14 +1,25 @@
-# Neurocomputing Reproducibility Package
+# Latent-Interface Reliability Reproducibility Package
 
-This repository provides the reproducibility materials for "Latent Representation Instability Across Recurrent and Attention-Based Receivers: Functional Equivalence and Receiver Transfer in Neural Time-Series Forecasting".
+This repository provides the versioned reproducibility materials for "Evaluating Neural Time-Series Latent-Interface Reliability: Structural Reproducibility, Receiver Compatibility, and Receiver Generalization". Version 1.1.0 preserves the original v1.0.0 experimental foundation and adds the post hoc, zero-training KBS robustness and receiver-generalization analyses.
 
 ## Scientific purpose
 
-The repository supports zero-training regeneration of manuscript tables and figures from frozen machine-readable results, plus a documented path for full computational reproduction.
+The repository supports zero-training regeneration of manuscript evidence from frozen machine-readable results, plus a documented path for full computational reproduction.
+
+Version 1.1.0 is an **additive reproducibility extension**. The original v1.0.0 data, configurations, code, results, environment records, and checkpoint provenance remain authoritative for the experiments that preceded the KBS retarget. The new `posthoc_kbs/` directory adds NC-PR4 alignment-panel sensitivity, cross-architecture receiver evidence, and NC-PR7R estimator-harmonized Level-3 evidence. These secondary files do not replace or overwrite the original confirmatory reference-LSTM gate.
 
 ## What this repository reproduces
 
-It covers the reference TARELA-LSTM configuration, GRU controlled receiver substitution, Transformer controlled receiver substitution, WHO, Electricity-37 and Dengue-7 structural replications, TP2B latent analysis, architecture-common functional diagnostics, receiver swaps, TP2D LSTM-specific diagnostics, intervention gates, and manuscript numerical summaries.
+The v1.0.0 foundation covers the reference TARELA-LSTM configuration, GRU controlled receiver substitution, Transformer controlled receiver substitution, WHO, Electricity-37 and Dengue-7 structural replications, TP2B latent analysis, architecture-common functional diagnostics, receiver swaps, TP2D LSTM-specific diagnostics, intervention gates, and original manuscript numerical summaries.
+
+The v1.1.0 KBS extension additionally covers:
+- deterministic 96/72/48 alignment-panel sensitivity;
+- zero-training cross-architecture receiver evaluation through frozen GRU and Transformer receiver banks;
+- paired FUNCTIONAL-minus-THETA-RKA country-level receiver evidence;
+- estimator-harmonized Level-3 summaries for reference LSTM, GRU, and Transformer receiving contexts;
+- source-hash, integrity, freeze, and execution evidence for the post hoc analyses.
+
+See [`KBS_REPRODUCIBILITY_MAP.md`](KBS_REPRODUCIBILITY_MAP.md) for the manuscript-to-artifact map.
 
 ## What this repository does not claim
 
@@ -30,9 +41,10 @@ The Dengue data retain a column named `Country` for frozen analytical compatibil
 
 1. Read [MODEL_ARCHITECTURES.md](MODEL_ARCHITECTURES.md) to identify the reference LSTM and controlled GRU/Transformer receiver substitutions.
 2. Read [ENVIRONMENT_PROVENANCE.md](ENVIRONMENT_PROVENANCE.md) to distinguish the canonical environment, quick verification environment, and historical training-evidence boundary.
-3. Run the zero-training quick reproduction commands below.
-4. Inspect regenerated manuscript outputs under [results/manuscript/](results/manuscript/).
-5. Use [audit/](audit/) only for deeper provenance, licensing, environment, and release-closure evidence.
+3. Run the original zero-training quick reproduction commands below.
+4. Run `python scripts/verify_kbs_extension.py` to verify the v1.1.0 post hoc evidence bundle.
+5. Read [KBS_REPRODUCIBILITY_MAP.md](KBS_REPRODUCIBILITY_MAP.md) to locate the evidence underlying each KBS table/figure.
+6. Use [audit/](audit/) and `posthoc_kbs/` for deeper provenance, integrity, and freeze evidence.
 
 ## Quick reproduction
 
@@ -59,7 +71,7 @@ Palau WHO structural alignment is not executable because the train-inner transit
 
 ## Repository layout
 
-`src/` contains portable code, `configs/` contains frozen protocol contracts, `data/` contains processed analytical data, `results/` contains machine-readable authority results, `manifests/` contains cohort and checkpoint registers, and `audit/` contains release evidence.
+`src/` contains portable code, `configs/` contains frozen protocol contracts, `data/` contains processed analytical data, `results/` contains the original machine-readable authority results, `manifests/` contains cohort and checkpoint registers, `audit/` contains release evidence, and `posthoc_kbs/` contains the additive NC-PR4/NC-PR7R zero-training KBS extension.
 
 ## Environment
 
@@ -75,9 +87,10 @@ Frozen checkpoint banks are not stored in Git history. Checkpoint hash registers
 
 ## Archival record
 
-A versioned archival record of the reproducibility materials, including the frozen checkpoint banks, is associated with Zenodo DOI 10.5281/zenodo.22140513.
+The original v1.0.0 archive was prepared under Zenodo DOI `10.5281/zenodo.22140513`. The KBS v1.1.0 extension is intended to be deposited as a **new Zenodo version**, retaining the original foundation files and adding the post hoc KBS extension. The manuscript should cite the **specific v1.1.0 version DOI** once Zenodo assigns and publishes it.
 
-DOI: https://doi.org/10.5281/zenodo.22140513
+- v1.0.0 foundation DOI: `10.5281/zenodo.22140513`
+- v1.1.0 specific DOI: `TO_BE_ASSIGNED_BY_ZENODO_NEW_VERSION`
 
 ## Citation
 
@@ -90,3 +103,10 @@ Adrianto Mahendra Wijaya.
 ## Scientific claim boundary
 
 No architecture-independent, universal, all-neural-architecture, or all-modern-forecasting-model claim is authorised by this freeze.
+
+## Version lineage
+
+- **v1.0.0** — original reproducibility freeze for the submitted Neurocomputing manuscript; original data/code/configuration/result/checkpoint authority.
+- **v1.1.0** — additive KBS reproducibility extension; no new training; adds NC-PR4 and NC-PR7R secondary evidence and KBS manuscript mapping.
+
+The v1.1.0 release does not rewrite the original confirmatory experiment and does not authorize a universal receiver-generalization or intervention-superiority claim.

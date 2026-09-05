@@ -1,0 +1,8 @@
+receiving_context,aggregation,median_delta_rho,q1_delta_rho,q3_delta_rho,countries_delta_rho_lt_0,country_count,proportion_lt_0,evidence_role
+Reference LSTM — primary cross-seed,"median of paired within-country delta_rho, then median across countries",-0.016128998239924,-0.1683992021510761,0.058907916538464,17,29,0.5862068965517241,PRIMARY harmonized descriptive
+Reference LSTM — supporting same-seed,"median of paired within-country delta_rho, then median across countries",0.4599868739327075,0.2511665644766888,0.7015942166303567,0,29,0.0,SUPPORTING harmonized descriptive
+Reference LSTM — training receiver,"median of paired within-country delta_rho, then median across countries",0.0461137641013493,0.0179802037210518,0.1222739417303964,5,29,0.1724137931034483,TRAINING-receiver diagnostic
+GRU — primary cross-seed,"median of paired within-country delta_rho, then median across countries",-0.0244219171954931,-0.0745922954763198,0.0631992881473234,19,29,0.6551724137931034,PRIMARY harmonized descriptive
+GRU — supporting same-seed,"median of paired within-country delta_rho, then median across countries",-0.0028014643407974,-0.0549142054267085,0.086465894331544,15,29,0.5172413793103449,SUPPORTING harmonized descriptive
+TRANSFORMER — primary cross-seed,"median of paired within-country delta_rho, then median across countries",-0.0047618771656098,-0.0591466538300824,0.0301068330357535,16,29,0.5517241379310345,PRIMARY harmonized descriptive
+TRANSFORMER — supporting same-seed,"median of paired within-country delta_rho, then median across countries",0.0351548536405992,-0.0084946614982523,0.1096271878071371,9,29,0.3103448275862069,SUPPORTING harmonized descriptive

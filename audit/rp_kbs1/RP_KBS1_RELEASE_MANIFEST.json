@@ -1,0 +1,19 @@
+{
+  "phase": "RP-KBS1",
+  "release_version": "1.1.0",
+  "release_type": "additive_zero_training_kbs_extension",
+  "foundation_version": "1.0.0",
+  "foundation_doi": "10.5281/zenodo.22140513",
+  "github_repository": "https://github.com/adriantowijaya/latent-interface-reproducibility",
+  "zenodo_v1_1_0_doi": "TO_BE_ASSIGNED_BY_ZENODO_NEW_VERSION",
+  "new_training": false,
+  "optimizer_invoked": false,
+  "model_weights_modified": false,
+  "original_confirmatory_g5_changed": false,
+  "posthoc_extension": [
+    "NC-PR4",
+    "NC-PR7R"
+  ],
+  "supplementary_s2_role": "compact_duplicate_of_posthoc_extension_for_journal_convenience",
+  "publication_status": "RELEASE_CANDIDATE_PREPARED_PUBLICATION_ACTION_REQUIRED"
+}
